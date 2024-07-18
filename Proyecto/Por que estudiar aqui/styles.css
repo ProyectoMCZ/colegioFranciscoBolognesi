@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #201B40;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+section {
+    margin-bottom: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav li {
+    margin: 0;
+    margin-right: 0;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #ccc;
+  }
+
+  main {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+  }
+
+  .hero div {
+    z-index: 1;
+  }
+  
+  .hero h1, .hero p {
+    z-index: 1;
+  }
+
+  .presentacion {
+    font-size: 24px;
+    background-color: transparent;
+    color: #1f1d1d;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .presentacion-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .insignia-contenedor {
+    margin-right: 20px;
+  }
+  
+  .insignia {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 50%;
+  } 
+
+  .about {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about h2 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .formacion-integral {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          
+}
+
+.imagen {
+    width: 35%; 
+    height: 15%;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+    margin-right: 20px;
+}
+
+.texto {
+    width: 70%; 
+    padding: 20px;
+}
+
+.texto h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+  
+.titulo-educativa {
+  text-align: center; 
+  font-size: 36px; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+
+.formacion-integral iframe {
+  width: 35%;
+  height: 200px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin-right: 20px;
+}
+
+.formacion-integral-small {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: justify;      
+}
+
+
+
+
+   
+  footer {
+    background-color: #201B40;
+    color: #fff;
+    padding: 1rem;
+    clear: both;
+  }
+  
+  footer .footcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -20px;
+  }
+  
+  footer .col-md-4 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer .row > .col-md-4 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  footer h5 {
+    font-weight: bold;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .insignia {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+  
+  @media (min-width: 1200px) {
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    nav ul {
+      display: block;
+    }
+    nav li {
+      margin-bottom: 10px;
+    }
+  }
